@@ -1,0 +1,2 @@
+# para que git ignore la carpeta node_modules 
+node_modules
