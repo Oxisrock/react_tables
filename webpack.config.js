@@ -5,7 +5,7 @@ var webpack = require('webpack');
 module.exports = {
   context: __dirname,
   devtool: debug ? "inline-sourcemap" : null,
-  entry: "./app/dist/app.js",// a donde esta el main de la app
+  entry: "./app/src/app.js",// a donde esta el main de la app
   module:
   {
     loaders: [
